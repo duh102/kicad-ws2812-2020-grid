@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ws2812_2020_grid-rescue)(type Legacy)(uri ${KIPRJMOD}/ws2812_2020_grid-rescue.lib)(options "")(descr ""))
+  (lib (name ws2812_2020_8x-rescue)(type Legacy)(uri ${KIPRJMOD}/ws2812_2020_8x-rescue.lib)(options "")(descr ""))
+)

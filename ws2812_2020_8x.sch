@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED:WS2812_2020 D1
+L WM_lib:WS2812_2020-LED D1
 U 1 1 5EADECB6
 P 3750 2200
 AR Path="/5EAE136B/5EADECB6" Ref="D1"  Part="1" 
@@ -25,6 +25,7 @@ AR Path="/5EAE3551/5EADECB6" Ref="D33"  Part="1"
 AR Path="/5EAE3557/5EADECB6" Ref="D41"  Part="1" 
 AR Path="/5EAE355D/5EADECB6" Ref="D49"  Part="1" 
 AR Path="/5EAE3563/5EADECB6" Ref="D57"  Part="1" 
+AR Path="/5EADECB6" Ref="D1"  Part="1" 
 F 0 "D1" H 4094 2246 50  0000 L CNN
 F 1 "WS2812_2020" H 4094 2155 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_2020_2.0x2.0mm" H 3800 1900 50  0001 L TNN
@@ -52,7 +53,7 @@ F 3 "~" H 2700 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812_2020 D2
+L WM_lib:WS2812_2020-LED D2
 U 1 1 5EAE1759
 P 4500 2200
 AR Path="/5EAE136B/5EAE1759" Ref="D2"  Part="1" 
@@ -63,6 +64,7 @@ AR Path="/5EAE3551/5EAE1759" Ref="D34"  Part="1"
 AR Path="/5EAE3557/5EAE1759" Ref="D42"  Part="1" 
 AR Path="/5EAE355D/5EAE1759" Ref="D50"  Part="1" 
 AR Path="/5EAE3563/5EAE1759" Ref="D58"  Part="1" 
+AR Path="/5EAE1759" Ref="D2"  Part="1" 
 F 0 "D2" H 4844 2246 50  0000 L CNN
 F 1 "WS2812_2020" H 4844 2155 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_2020_2.0x2.0mm" H 4550 1900 50  0001 L TNN
@@ -71,7 +73,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4600 1825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812_2020 D3
+L WM_lib:WS2812_2020-LED D3
 U 1 1 5EAE2ADE
 P 5250 2200
 AR Path="/5EAE136B/5EAE2ADE" Ref="D3"  Part="1" 
@@ -82,6 +84,7 @@ AR Path="/5EAE3551/5EAE2ADE" Ref="D35"  Part="1"
 AR Path="/5EAE3557/5EAE2ADE" Ref="D43"  Part="1" 
 AR Path="/5EAE355D/5EAE2ADE" Ref="D51"  Part="1" 
 AR Path="/5EAE3563/5EAE2ADE" Ref="D59"  Part="1" 
+AR Path="/5EAE2ADE" Ref="D3"  Part="1" 
 F 0 "D3" H 5594 2246 50  0000 L CNN
 F 1 "WS2812_2020" H 5594 2155 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_2020_2.0x2.0mm" H 5300 1900 50  0001 L TNN
@@ -90,7 +93,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5350 1825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812_2020 D4
+L WM_lib:WS2812_2020-LED D4
 U 1 1 5EAE2AE4
 P 6000 2200
 AR Path="/5EAE136B/5EAE2AE4" Ref="D4"  Part="1" 
@@ -101,6 +104,7 @@ AR Path="/5EAE3551/5EAE2AE4" Ref="D36"  Part="1"
 AR Path="/5EAE3557/5EAE2AE4" Ref="D44"  Part="1" 
 AR Path="/5EAE355D/5EAE2AE4" Ref="D52"  Part="1" 
 AR Path="/5EAE3563/5EAE2AE4" Ref="D60"  Part="1" 
+AR Path="/5EAE2AE4" Ref="D4"  Part="1" 
 F 0 "D4" H 6344 2246 50  0000 L CNN
 F 1 "WS2812_2020" H 6344 2155 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_2020_2.0x2.0mm" H 6050 1900 50  0001 L TNN
@@ -109,7 +113,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6100 1825 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812_2020 D5
+L WM_lib:WS2812_2020-LED D5
 U 1 1 5EAE9322
 P 3750 3350
 AR Path="/5EAE136B/5EAE9322" Ref="D5"  Part="1" 
@@ -120,6 +124,7 @@ AR Path="/5EAE3551/5EAE9322" Ref="D37"  Part="1"
 AR Path="/5EAE3557/5EAE9322" Ref="D45"  Part="1" 
 AR Path="/5EAE355D/5EAE9322" Ref="D53"  Part="1" 
 AR Path="/5EAE3563/5EAE9322" Ref="D61"  Part="1" 
+AR Path="/5EAE9322" Ref="D5"  Part="1" 
 F 0 "D5" H 4094 3396 50  0000 L CNN
 F 1 "WS2812_2020" H 4094 3305 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_2020_2.0x2.0mm" H 3800 3050 50  0001 L TNN
@@ -128,7 +133,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3850 2975 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812_2020 D6
+L WM_lib:WS2812_2020-LED D6
 U 1 1 5EAE9328
 P 4500 3350
 AR Path="/5EAE136B/5EAE9328" Ref="D6"  Part="1" 
@@ -139,6 +144,7 @@ AR Path="/5EAE3551/5EAE9328" Ref="D38"  Part="1"
 AR Path="/5EAE3557/5EAE9328" Ref="D46"  Part="1" 
 AR Path="/5EAE355D/5EAE9328" Ref="D54"  Part="1" 
 AR Path="/5EAE3563/5EAE9328" Ref="D62"  Part="1" 
+AR Path="/5EAE9328" Ref="D6"  Part="1" 
 F 0 "D6" H 4844 3396 50  0000 L CNN
 F 1 "WS2812_2020" H 4844 3305 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_2020_2.0x2.0mm" H 4550 3050 50  0001 L TNN
@@ -147,7 +153,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4600 2975 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812_2020 D7
+L WM_lib:WS2812_2020-LED D7
 U 1 1 5EAE932E
 P 5250 3350
 AR Path="/5EAE136B/5EAE932E" Ref="D7"  Part="1" 
@@ -158,6 +164,7 @@ AR Path="/5EAE3551/5EAE932E" Ref="D39"  Part="1"
 AR Path="/5EAE3557/5EAE932E" Ref="D47"  Part="1" 
 AR Path="/5EAE355D/5EAE932E" Ref="D55"  Part="1" 
 AR Path="/5EAE3563/5EAE932E" Ref="D63"  Part="1" 
+AR Path="/5EAE932E" Ref="D7"  Part="1" 
 F 0 "D7" H 5594 3396 50  0000 L CNN
 F 1 "WS2812_2020" H 5594 3305 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_2020_2.0x2.0mm" H 5300 3050 50  0001 L TNN
@@ -166,7 +173,7 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5350 2975 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812_2020 D8
+L WM_lib:WS2812_2020-LED D8
 U 1 1 5EAE9334
 P 6000 3350
 AR Path="/5EAE136B/5EAE9334" Ref="D8"  Part="1" 
@@ -177,6 +184,7 @@ AR Path="/5EAE3551/5EAE9334" Ref="D40"  Part="1"
 AR Path="/5EAE3557/5EAE9334" Ref="D48"  Part="1" 
 AR Path="/5EAE355D/5EAE9334" Ref="D56"  Part="1" 
 AR Path="/5EAE3563/5EAE9334" Ref="D64"  Part="1" 
+AR Path="/5EAE9334" Ref="D8"  Part="1" 
 F 0 "D8" H 6344 3396 50  0000 L CNN
 F 1 "WS2812_2020" H 6344 3305 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812_2020_2.0x2.0mm" H 6050 3050 50  0001 L TNN
